@@ -6,7 +6,7 @@ import {Assignment8} from "../src/Assignment8.sol";
 
 contract Assignment8Test is Test {
     Assignment8 assignment;
-    string public temporaryUriForTesting = "https://azure-yearning-shrew-339.mypinata.cloud/ipfs/bafkreifo3hg2hnig5ojay3tonmf6un3qlxqjienffsmpkq5cfpept2fake";
+    string public temporaryUriForTesting = "https://ipfs.io/ipfs/bafkreigxg33fkwfvqoirf4ehrlbj5cybnj634bp5ejffl3k3r7vrrhsbde";
 
     function setUp() public {
         assignment = new Assignment8();
